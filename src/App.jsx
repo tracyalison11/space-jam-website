@@ -6,7 +6,7 @@ function App() {
 
   return (
     <div>
-      <h1>Tracy King</h1>
+      <h1 className="text-pink-600 text-7xl">Tracy King</h1>
       <div>
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
@@ -16,7 +16,7 @@ function App() {
         </p>
       </div>
       <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
+        COMING SOON...
       </p>
     </div>
   )

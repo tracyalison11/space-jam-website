@@ -446,6 +446,12 @@ video {
   display: none;
 }
 
+@font-face {
+  font-family: 'lithos';
+
+  src: url(/fonts/LithosBlackRegular.otf);
+}
+
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
@@ -554,10 +560,12 @@ video {
   --tw-contain-style:  ;
 }
 
-.bg-main {
-  background-image: url('/src/assets/star-background.jpg');
+.text-7xl {
+  font-size: 4.5rem;
+  line-height: 1;
 }
 
-.bg-repeat {
-  background-repeat: repeat;
+.text-pink-600 {
+  --tw-text-opacity: 1;
+  color: rgb(219 39 119 / var(--tw-text-opacity));
 }
