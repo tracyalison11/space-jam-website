@@ -553,3 +553,11 @@ video {
   --tw-contain-paint:  ;
   --tw-contain-style:  ;
 }
+
+.bg-main {
+  background-image: url('/src/assets/star-background.jpg');
+}
+
+.bg-repeat {
+  background-repeat: repeat;
+}

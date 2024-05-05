@@ -1,17 +1,16 @@
 import { useState } from 'react'
 import './App.css'
-import background from './assets/star-background.jpg';
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div className="bg-repeat bg-[url('./assets/star-background.jpg')]" >
+    <div>
       <div>
         <p>Open Div For Now</p>
       </div>
       <h1>Tracy King</h1>
-      <div className="card">
+      <div>
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
