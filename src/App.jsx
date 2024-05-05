@@ -6,9 +6,6 @@ function App() {
 
   return (
     <div>
-      <div>
-        <p>Open Div For Now</p>
-      </div>
       <h1>Tracy King</h1>
       <div>
         <button onClick={() => setCount((count) => count + 1)}>
